@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/MyPortfolio/static/js/main.611ceb6c.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.611ceb6c.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.ae6871ce.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.ae6871ce.js.map",
+    "static/js/2.e8c6d829.chunk.js": "/MyPortfolio/static/js/2.e8c6d829.chunk.js",
+    "static/js/2.e8c6d829.chunk.js.map": "/MyPortfolio/static/js/2.e8c6d829.chunk.js.map",
+    "static/js/3.fe7fae22.chunk.js": "/MyPortfolio/static/js/3.fe7fae22.chunk.js",
+    "static/js/3.fe7fae22.chunk.js.map": "/MyPortfolio/static/js/3.fe7fae22.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/js/2.e8c6d829.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.e8c6d829.chunk.js.LICENSE.txt",
+    "static/media/athlete-small.9c7a85d4.png": "/MyPortfolio/static/media/athlete-small.9c7a85d4.png",
+    "static/media/goodtimes-small.94ab060d.png": "/MyPortfolio/static/media/goodtimes-small.94ab060d.png",
+    "static/media/pro-pic.fdd8a585.JPEG": "/MyPortfolio/static/media/pro-pic.fdd8a585.JPEG",
+    "static/media/theracer-small.51874213.png": "/MyPortfolio/static/media/theracer-small.51874213.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae6871ce.js",
+    "static/js/2.e8c6d829.chunk.js",
+    "static/js/main.611ceb6c.chunk.js"
+  ]
+}

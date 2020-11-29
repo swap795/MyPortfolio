@@ -1,8 +1,10 @@
 import React from "react";
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../animation';
+// import { AboutStyle } from '../styles';
 
 import AboutMe from '../components/AboutMe';
+import Timeline from '../components/Timeline';
 
 const About = () => {
    return (
@@ -13,6 +15,7 @@ const About = () => {
       animate="show"
       >
          <AboutMe />
+         <Timeline />
       </motion.div>
    );
 }

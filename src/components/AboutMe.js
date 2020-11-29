@@ -1,9 +1,11 @@
 import React from "react";
 
-import { AboutStyle } from '../styles';
+// import { AboutStyle } from '../styles';
+// import styled from 'styled-components';
+// import { motion } from 'framer-motion';
 
 
-const About = () => {
+const AboutMe = () => {
    return (
       <div>
          <h2>About ME</h2>
@@ -11,4 +13,4 @@ const About = () => {
    );
 }
 
-export default About;
+export default AboutMe;

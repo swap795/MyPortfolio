@@ -28,7 +28,7 @@ const ContactMe = () => {
          animate="show"
       >
          <ContactStyle>
-            <motion.h2 
+            <motion.h4 
                variants={ titleAnimation } 
                initial={{
                   hidden: {
@@ -46,9 +46,9 @@ const ContactMe = () => {
                }}
             >
                Want to <span>Reach out</span> to me?
-               <h4><span>Get in touch!</span></h4>
+               <motion.p><span>Get in touch!</span></motion.p>
                <button>Here!</button>
-            </motion.h2>
+            </motion.h4>
             <Faq />
          </ContactStyle>
       </motion.div>

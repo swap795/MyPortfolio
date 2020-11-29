@@ -1,5 +1,6 @@
 import React from "react";
 import pro_pic from "../images/pro-pic.JPEG";
+import Timeline from '../components/Timeline';
 
 // framer motion
 import { motion } from 'framer-motion';
@@ -47,6 +48,7 @@ const Home = () => {
             </ImgStyle>
             <Wave />
          </AboutStyle>
+         <Timeline />
       </motion.div>
       
    );

@@ -7,6 +7,7 @@ import Nav from "./components/Nav"
 import About from "./pages/About";
 import ContactMe from "./pages/ContactMe";
 import Projects from "./pages/Projects";
+import LearnMore from "./components/LearnMore";
 
 import { Switch, Route, useLocation } from 'react-router-dom';
 
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <ContactMe />
+        </Route>
+        <Route path="/learn-more">
+          <LearnMore />
         </Route>
       </Switch>
     </AnimatePresence>

@@ -12,7 +12,7 @@ import goodtimes from "../images/goodtimes-small.png";
 
 // motion
 import { motion } from 'framer-motion';
-import { pageAnimation, photoAnimation, fadeAnimation, lineAnimation } from "../animation";
+import { pageAnimation, photoAnimation, fadeAnimation, lineAnimation, scrollReveal } from "../animation";
 
 const ProjectsStyle = styled(motion.div)`
    min-height: 100vh;
@@ -32,42 +32,31 @@ const Movie = styled(motion.div)`
    }
    img{
       width: 100%;
-      height: 70vh;
+      height: 60vh;
       object-fit: cover;
       /* overflow: hidden; */
    }
 `;
 
-const Frame1 = styled(motion.div)`
-   background: #fffebf;
-   position: fixed;
-   left: 0;
-   top: 10%;
-   width: 100%;
-   height: 100vh;
-   z-index: 2;
-`;
-const Frame2 = styled(Frame1)`
-   background: #ff8efb;
-`;
-const Frame3 = styled(Frame1)`
-   background: #8ed2ff;
-`;
-const Frame4 = styled(Frame1)`
-   background: #8effa0;
-`;
+// const Frame1 = styled(motion.div)`
+//    background: #fffebf;
+//    position: fixed;
+//    left: 0;
+//    top: 10%;
+//    width: 100%;
+//    height: 100vh;
+//    z-index: 2;
+// `;
+// const Frame2 = styled(Frame1)`
+//    background: #ff8efb;
+// `;
+// const Frame3 = styled(Frame1)`
+//    background: #8ed2ff;
+// `;
+// const Frame4 = styled(Frame1)`
+//    background: #8effa0;
+// `;
 
-const scrollReveal = {
-   hidden: {
-      opacity: 0,
-   },
-   show: {
-      opacity: 1,
-      transition: {
-         duration: 1,
-      }
-   },
-};
 
 /************************************************************ 
    MAIN RENDER

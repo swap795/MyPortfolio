@@ -3,12 +3,11 @@ import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
 
 const ScrollAnimation = () => {
-   const [element, view] = useInView({ threshold: 0.25 });
+   const [element, view] = useInView({ threshold: 0.4 });
    const controls = useAnimation();
 
    if(view) {
       controls.start("show");
-      console.log(view);
    } else {
       controls.start("hidden");
    }

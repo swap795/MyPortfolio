@@ -37,3 +37,5 @@ export const ImgStyle = styled.div`
       /* z-index: 2; */
    }
 `;
+
+// styles for the timeline

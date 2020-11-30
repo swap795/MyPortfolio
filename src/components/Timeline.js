@@ -104,7 +104,7 @@ const RightContainer = styled(motion.div)`
 // the Content
 const Content = styled(motion.div)`
    padding: 20px 30px;
-   background-color: #bc7777;
+   background-color: #be8888;
    position: relative;
    border-radius: 6px;
    .learnButton{

@@ -2,14 +2,15 @@ import React from "react";
 
 // import { AboutStyle } from '../styles';
 // import styled from 'styled-components';
-// import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
 const AboutMe = () => {
    return (
-      <div>
+      <motion.div>
          <h2>About ME</h2>
-      </div>
+         <p>I am a Student at Brigham Young University-Idaho studying Computer Engineering.</p>
+      </motion.div>
    );
 }
 

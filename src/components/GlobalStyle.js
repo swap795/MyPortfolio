@@ -42,6 +42,11 @@ h4{
    font-size: 2rem;
 }
 
+h5{
+   font-size: 2rem;
+   color: #1c818b;
+}
+
 span{
    font-weight: bold;
    color: #23d997;

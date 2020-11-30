@@ -94,3 +94,45 @@ export const scrollReveal = {
       }
    },
 }
+
+export const leftIconAnimation = {
+   hidden: {
+      opacity: 0,
+      x: 500,
+   },
+   show: {
+      opacity: 1,
+      x: 0,
+      transition: {
+         ease: "easeOut",
+         duration: 1,
+      },
+   },
+}
+
+export const rightIconAnimation = {
+   hidden: {
+      opacity: 0,
+      x: -500,
+   },
+   show: {
+      opacity: 1,
+      x: 0,
+      transition: {
+         ease: "easeOut",
+         duration: 1,
+      },
+   },
+}
+
+export const timelineAnimation = {
+   hidden: {
+      width: '0%',
+   },
+   show: {
+      width: '1rem',
+      transition: {
+         duration: 1,
+      },
+   },
+}

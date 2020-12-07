@@ -48,7 +48,7 @@ const Home = () => {
             </ImgStyle>
             <Wave />
          </AboutStyle>
-         <div style={{ background: "linear-gradient(#1b1b1b, #4f4e4e)" }}>
+         <div style={{ background: "linear-gradient(#1b1b1b, #5d5555)" }}>
             <Timeline />
          </div>
       </motion.div>

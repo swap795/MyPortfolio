@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 import ScrollAnimation from '../components/ScrollAnimation';
-import { timelineAnimation, rightIconAnimation, leftIconAnimation, photoAnimation, scrollReveal, fadeAnimation } from '../animation';
+import { timelineAnimation, rightIconAnimation, leftIconAnimation, photoAnimation, scrollReveal } from '../animation';
 
 // images
 import gradCap from '../images/grad-cap.png';
@@ -47,33 +47,33 @@ const TimelineContainer = styled(motion.div)`
 // `;
 
 // Vertical line
-const LineStyle = styled(motion.div)`
-   position: relative;
-   max-width: 1200px;
-   margin: 0 auto;
-   padding-top: 3rem;
-   &:after{
-      content: ' ';
-      position: absolute;
-      width: 10px;
-      background-color: #086972;
-      top: 0;
-      bottom: 0;
-      left: 53.3%;
-      /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
-   }
-   h2{
-      font-size: 3rem;
-   }
-   p{
-      padding: .2rem .2rem;
-      color: black;
-      font-size: 1rem;
-   }
-   h4{
-      padding-bottom: 1rem;
-   }
-`;
+// const LineStyle = styled(motion.div)`
+//    position: relative;
+//    max-width: 1200px;
+//    margin: 0 auto;
+//    padding-top: 3rem;
+//    &:after{
+//       content: ' ';
+//       position: absolute;
+//       width: 10px;
+//       background-color: #086972;
+//       top: 0;
+//       bottom: 0;
+//       left: 53.3%;
+//       /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
+//    }
+//    h2{
+//       font-size: 3rem;
+//    }
+//    p{
+//       padding: .2rem .2rem;
+//       color: black;
+//       font-size: 1rem;
+//    }
+//    h4{
+//       padding-bottom: 1rem;
+//    }
+// `;
 
 const LeftIcons = styled(motion.div)`
    img{
@@ -119,7 +119,7 @@ const LeftContainer = styled(motion.div)`
       content: " ";
       height: 0;
       position: absolute;
-      top: 2.6rem;
+      top: 2.9rem;
       width: 0;
       z-index: 1;
       right: 3.4rem;
@@ -140,7 +140,7 @@ const RightContainer = styled(motion.div)`
       content: " ";
       height: 0;
       position: absolute;
-      top: 2.2rem;
+      top: 2.5rem;
       width: 0;
       z-index: 1;
       left: 4.36rem;
@@ -226,7 +226,7 @@ const Timeline = () => {
    const [element7, control7] = ScrollAnimation();
    const [element8, control8] = ScrollAnimation();
    const [element9, control9] = ScrollAnimation();
-   const [element10, control10] = ScrollAnimation();
+   // const [element10, control10] = ScrollAnimation();
 
    return (
       <div>
